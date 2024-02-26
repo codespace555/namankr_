@@ -1,37 +1,829 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="output.css" />
-    <title>namankr_</title>
-  </head>
 
-  <body class="p-8 w-full h-screen bg-slate-900 flex justify-between gap-2">
-    <nav class="w-64 h-auto text-center overflow-y-scroll no-scrollbar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="output.css" />
+  <title>namankr_</title>
+</head>
+
+<body class="md:p-8 w-full h-screen bg-slate-900 flex justify-center gap-2">
+  <!-- nav side social about as -->
+  <nav class="w-64 h-auto text-center overflow-y-scroll no-scrollbar hidden md:block">
+    <div class="logo">
+      <h1>
+        <a href="" target="_blank">
+          <div class="text-4xl font-bold text-gray-600">
+            nam<span class="rounded-full text-blue-700 text-center">an</span>
+          </div>
+        </a>
+      </h1>
+    </div>
+    <div class="navbar bg-slate-800 rounded-lg p-5 mt-2">
+      <ul>
+        <li class="border-b p-2 font-semibold text-gray-400">
+          <a href=""><span class="text-orange-800">&lt;</span> Snippets<span class="text-orange-800">/&gt;</span></a>
+        </li>
+
+        <li class="mt-7 font-semibold rounded-md bg-gray-400 text-gray-400">
+          <strong- class="bg-slate-800 p-3 rounded-md">About me</strong->
+
+          <p class="p-5 text-gray-600">
+            Hello, I'm Naman Kumar, a passionate web developer with a mission
+            to transform ideas into captivating digital experiences. With a
+            strong foundation in both front-end and back-end development, I
+            thrive on creating websites that not only look exceptional but
+            also function seamlessly.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="bg-slate-800 rounded-lg p-5 mt-2 text-center">
+      <p class="border-b p-2 font-semibold text-gray-400">Connect With me</p>
+      <ul class="text-left justify-start flex flex-col p-4 gap-5">
+        <a href="https://www.instagram.com/namankr_/" class="hover:text-gray-300">
+          <li>
+            <i class="fa-brands fa-instagram" style="color: #bd3f28"></i>
+            Instagram
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/naman-kumar-codespace555/" class="hover:text-gray-300">
+          <li>
+            <i class="fa-brands fa-linkedin" style="color: #275fbe"></i>
+            Linkedin
+          </li>
+        </a>
+
+        <a href="https://github.com/codespace555" class="hover:text-gray-300">
+          <li>
+            <i class="fa-brands fa-github" style="color: #9628a4"></i> GitHub
+          </li>
+        </a>
+
+        <a href="https://twitter.com/NamanKu79266241" class="hover:text-gray-300">
+          <li>
+            <i class="fa-brands fa-twitter" style="color: #275fbe"></i>
+            Twitter
+          </li>
+        </a>
+      </ul>
+      <div class="navbar bg-slate-800 rounded-lg p-5 mt-2">
+        Copyright © 2023 namankr_
+      </div>
+    </div>
+  </nav>
+  <!-- ................................................................................ -->
+
+  <main class="md:w-[80vw] h-auto border rounded-md border-gray-500 overflow-y-scroll no-scrollbar">
+    <section class="text-right bg-gray-800 text-white p-2 rounded-md">
+      <a href="mailto: namansanjaykumar@gmail.com">
+        <button class="bg-blue-600 px-2 py-1 rounded-md sticky top-0">
+          <i class="fa-solid fa-user"></i> Contact me
+        </button></a>
+
+    </section>
+    <header
+      class="rounded-md h-55 flex items-center justify-between py-10 px-2 bg-[url('1080x360.jpeg')] bg-center bg-no-repeat bg-cover from-zinc-400">
+      <div class="my-img border-4 border-blue-800 rounded-full relative top-28">
+        <img src="download.gif" alt="my-img " class="rounded-full w-32 border-5 outline-5 h-32 border-5" />
+      </div>
+      <div class="profile border-blue-800 border bg-gray-500 relative top-36 p-3 rounded-md">
+        <a href="https://www.linkedin.com/in/naman-kumar-codespace555/"><i class="fa-brands fa-linkedin"></i> Connect with Linkedin</a>
+      </div>
+    </header>
+    <div class="mt-[70px] whitespace-normal px-3">
+      <h2 class="text-white font-bold text-2xl">Naman Kumar</h2>
+      <p class="text-slate-300 text-sm"><a href="https://github.com/codespace555">@namankr_</a></p>
+      <div>
+        <p class="text-gray-400 pr-20">
+          A driven and passionate web developer student. I have a strong
+          foundation in programming languages , Framework and tools.
+        </p>
+        <span class="text-gray-500">
+          <i class="fa-solid fa-envelope" style="color: #c4c4d7"></i>
+          <a href="namansanjaykumar@gmail.com">namansanjaykumar@gmail.com</a>
+          <br /><i class="fa-solid fa-phone" style="color: #c4c4d7"></i> +91
+          7050553648
+        </span>
+      </div>
+    </div>
+    <!-- work..................................................................... -->
+    <section class="mt-10 text-white">
+
+      <!-- ........................................................ -->
+      <section class="text-center h-full py-2 px-5 w-auto mb-5 bg-slate-200 m-2 rounded-md
+      ">
+        <h1 class="border-gray-500 py-2 bg-slate-700 mb-2 text-gray-200 font-bold rounded-md">
+          MY Skill
+        </h1>
+        <ul class="flex justify-evenly gap-5 w-4/2  flex-wrap p-5 ">
+          <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              alt="bootstrap" width="40" height="40" class="w-20" />
+          </a>
+          <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+              alt="css3" width="40" height="40" class="w-20"  />
+          </a>
+          <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+              alt="express" width="40" height="40 " class="w-20" />
+          </a>
+          <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" class="w-20"  />
+          </a>
+          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+              alt="html5" width="40" height="40" class="w-20"  />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+              alt="javascript" width="40" height="40" class="w-20" />
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+              alt="mongodb" width="40" height="40" class="w-20"  />
+          </a>
+          <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+              alt="nodejs" width="40" height="40" class="w-20" />
+          </a>
+          <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+              alt="photoshop" width="40" height="40" class="w-20"  />
+          </a>
+        
+          <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+              alt="react" width="40" height="40" class="w-20"  />
+          </a>
+          <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40"
+              height="40" class="w-20"  />
+          </a>
+          <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+              alt="typescript" width="40" height="40" class="w-20" />
+          </a>
+          <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+              alt="python" width="40" height="40" class="w-20" />
+          </a>
+        </ul>
+      </section>
+      <!-- .................small Project............................................. -->
+      <section class="flex flex-col items-center justify-center bg-slate-700">
+        <h1 class="border-b-2 border-gray-500  text-gray-200 font-bold p-2">
+          Small Project
+        </h1>
+        <ul class="relative w-full flex   gap-6 snap-x snap-mandatory overflow-x-auto pb-14"></ul>
+        <!-- Snap Point -->
+        <div class="flex ml-[50%] items-end justify-start pt-2 ">
+          
+          <div class="absolute top-0 bottom-0 left-1/2 ">
+
+          </div>
+        </div>
+        <!-- Contents -->
+        <div class="relative w-full flex gap-6 snap-x snap-proximity overflow-x-auto p-5">
+          <div class="snap-center shrink-0">
+            
+          </div>
+          <div class="snap-center shrink-0 first:pl-8 last:pr-8 bg-slate-900 p-5 border-2 rounded-lg">
+            <a href="">
+              <div class=" flex   h-60 items-center text-center w-[500px]">
+                <video src="video/Document - Google Chrome 2023-10-30 13-12-49.mp4" class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" loop autoplay muted ></video>
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-600">
+                    Sample Website
+                  </h2>
+                  <h3 class="text-gray-500 mb-3">Tools & languages:HTML Tailwind CSS</h3>
+                  <p class="mb-4">
+                   A web design sample website using HTMl and Tailwind
+                  </p>
+                  <span class="inline-flex">
+                    <a href="https://github.com/codespace555/simple-Website" class="text-gray-500">Git Hub</a>
+                  </span>
+                </div>
+                
+              </div>
+            </a>
+          </div>
+          <div class="snap-center shrink-0 first:pl-8 last:pr-8 bg-slate-900 p-5 border-2 rounded-lg gap-5">
+            <a href="https://mycargame.netlify.app">
+              <div class=" flex   h-60 items-center text-center w-[500px]">
+                <video src="video/CarRace_ For you fun — Mozilla Firefox 2024-02-22 12-45-23.mp4" class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" loop autoplay muted ></video>
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-600">
+                    CarGame
+                  </h2>
+                  <h3 class="text-gray-500 mb-3">Tools & languages:HTML Tailwind CSS</h3>
+                  <p class="mb-4">
+                    This is a simple car game built using HTML, CSS, and Vanilla JavaScript. In this game, you control a blue car using the arrow keys and navigate it through a road while avoiding collisions with enemy cars.
+                  </p>
+                  <span class="inline-flex">
+                    <a href="https://github.com/codespace555/simple-Website" class="text-gray-500">Git Hub</a>
+                  </span>
+                  <span class="inline-flex">
+                    <a href="https://mycargame.netlify.app" class="text-gray-500">Demo</a>
+                  </span>
+                </div>
+                
+              </div>
+            </a>
+          </div>
+          <div class="snap-center shrink-0 first:pl-8 last:pr-8 bg-slate-900 p-5 border-2 rounded-lg">
+            <a href="https://currencycconverterapp.netlify.app/">
+              <div class=" flex   h-60 items-center text-center w-[500px]">
+                <img src="video/Screenshot 2024-02-26 201828.png" class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" loop autoplay muted ></img>
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-gray-600">
+                   currency converter
+                  </h2>
+                  <h3 class="text-gray-500 mb-3">Tools & languages: ReactJS API JSX Tailwind CSS</h3>
+                  <p class="mb-4">
+                    This is a currency Converter app  built using React js && Tailwind Css. In this app, you convert a currency of your country currency to other country currency.
+                  </p>
+                  <span class="inline-flex">
+                    <a href="https://github.com/codespace555/simple-Website" class="text-gray-500">Git Hub</a>
+                  </span>
+                  <span class="inline-flex">
+                    <a href="https://mycargame.netlify.app" class="text-gray-500">Demo</a>
+                  </span>
+                </div>
+                
+              </div>
+            </a>
+          </div>
+          <div class="snap-center shrink-0">
+            <div class="shrink-0 w-4 sm:w-48"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ................................................................................ -->
+      <div class="flex px-3 border-b-2 border-gray-400">
+        <h1 class="font-semibold border-b-8 border-blue-600 rounded-md">
+          Work & Project
+        </h1>
+      </div>
+      <!-- frontend -->
+      <div class="">
+        <section class="text-gray-400 body-font">
+          <div class="container px-5 py-12 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+              <h1 class="text-2xl font-medium title-font mb-4 text-white">
+                #Front End project
+              </h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                Creating stunning websites using HTML, CSS, and JavaScript
+                with the power of React. Embracing simplicity and efficiency
+                with Tailwind CSS for seamless web design. Join us on our
+                journey of building user-friendly interfaces that captivate
+                and inspire.
+              </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+              <!-- ................................................................................ -->
+
+              <div class="p-4 lg:w-1/2 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center bg-gray-500 p-5 rounded-lg">
+                  <video src="video/pokemon.mp4"
+                    class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" autoplay loop
+                    muted></video>
+                  <div class="w-full">
+                    <h2 class="title-font font-bold text-lg text-gray-900">
+                      PokeBalls React APP
+                    </h2>
+                    <h3 class="text-gray-900 mb-3">
+                      Tools & languages:- Raectjs PokeAPI TailwindCss
+                      JavaScript JSX
+                    </h3>
+
+                    <p class="mb-4">
+                      🌐 PokeBalls is a React web application that allows
+                      users to explore and learn about various Pokémon using
+                      data fetched from the PokeAPI. This app serves as an
+                      interactive Pokédex, enabling users to search for
+                      Pokémon, and view details about them.
+                    </p>
+                    <span class="inline-flex border rounded-md px-2">
+                      <a href="https://pokeballs.netlify.app/" class="text-gray-400" target="_blank">Demo
+                      </a>
+                    </span>
+                    <span class="inline-flex border px-2 rounded-md">
+                      <a href="https://pokeballs.netlify.app/" class="text-gray-400" target="_blank">GitHub</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- ................................................................................ -->
+
+              <div class="p-4 lg:w-1/2 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center bg-gray-500 p-5 rounded-lg">
+                  <video src="video/TextUtils_Home - Google Chrome 2023-10-29 21-04-05.mp4"
+                    class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" autoplay loop
+                    muted></video>
+                  <div class="w-full">
+                    <h2 class="title-font font-bold text-lg text-gray-900">
+                      TextUtils React APP
+                    </h2>
+                    <h3 class="text-gray-900 mb-3">
+                      Tools & languages:- Raectjs TailwindCss JavaScript JSX
+                    </h3>
+
+                    <p class="mb-4">
+                      🌐 The TextUtils React App is a user-friendly web
+                      application designed to simplify text manipulation and
+                      analysis. This app provides a suite of tools to enhance
+                      your text processing experience.
+                    </p>
+
+                    <span class="inline-flex border px-2 rounded-md">
+                      <a href="https://github.com/codespace555/TextUtils_React_app" class="text-gray-400"
+                        target="_blank">GitHub</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- ................................................................................ -->
+
+              <div class="p-4 lg:w-1/2 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center bg-gray-500 p-5 rounded-lg">
+                  <video src="video/Sports _ NewsFunda - Google Chrome 2023-08-30 16-52-32.mp4"
+                    class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" autoplay loop
+                    muted></video>
+                  <div class="w-full">
+                    <h2 class="title-font font-bold text-lg text-gray-900">
+                      NewsApp_By_React
+                    </h2>
+                    <h3 class="text-gray-900 mb-3">
+                      Tools & languages:- Raectjs News API TailwindCss
+                      JavaScript JSX
+                    </h3>
+
+                    <p class="mb-4">
+                      🌐 The News Vite + React App is a web application built
+                      with Vite that allows users to browse and read news
+                      articles from various sources and categories. It
+                      utilizes the News API to fetch the latest news data and
+                      presents it in an easy-to-use and responsive interface.
+                      Users can choose from different news categories to stay
+                      informed about the topics they are interested in.
+
+                      <br />
+                      <span class="inline-flex border px-2 m-1 rounded-md">
+                        <a href="https://github.com/codespace555/NewsApp_By_React" class="text-gray-400"
+                          target="_blank">GitHub</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- ................................................................................ -->
+
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/203x203" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Henry Letham
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ................................................................................ -->
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- ................................................................................ -->
+
+      <!-- backend -->
+      <div class="">
+        <section class="text-gray-400 body-font">
+          <div class="container px-5 py-12 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+              <h1 class="text-2xl font-medium title-font mb-4 text-white">
+                #Back End project
+              </h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                Harnessing the power of Node.js and Express, we're
+                constructing dynamic backends seamlessly integrated with
+                MongoDB. Join us on our journey of building scalable and
+                efficient solutions that streamline data management and drive
+                digital transformation.
+              </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/200x200" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Alper Kamu
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/201x201" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Holden Caulfield
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/202x202" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Atticus Finch
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/203x203" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Henry Letham
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- ................................................................................ -->
+
+      <!-- full-stack -->
+      <div class="">
+        <section class="text-gray-400 body-font">
+          <div class="container px-5 py-12 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+              <h1 class="text-2xl font-medium title-font mb-4 text-white">
+                #Full-stack project
+              </h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                Embarking on a full-stack journey, we're fusing the power of
+                front-end creativity with the robustness of back-end
+                technologies. With expertise in HTML, CSS, JavaScript, React,
+                Node.js, Express, and MongoDB, we're crafting comprehensive
+                solutions that deliver exceptional user experiences and
+                streamlined data management. Join us in exploring the
+                possibilities of a seamlessly integrated digital ecosystem.
+              </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/200x200" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Alper Kamu
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/201x201" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Holden Caulfield
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/202x202" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Atticus Finch
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="h-full flex flex-col items-center text-center">
+                  <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    src="https://dummyimage.com/203x203" />
+                  <div class="w-full">
+                    <h2 class="title-font font-medium text-lg text-gray-900">
+                      Henry Letham
+                    </h2>
+                    <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                    <p class="mb-4">
+                      DIY tote bag drinking vinegar cronut adaptogen squid
+                      fanny pack vaporware.
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a class="ml-2 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path
+                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                          </path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <nav class="md:w-64  h-auto text-center overflow-y-scroll no-scrollbar md:hidden block">
       <div class="logo">
         <h1>
-          <a href="" target="_blank"
-            ><div class="text-4xl font-bold text-gray-600">
+          <a href="" target="_blank">
+            <div class="text-4xl font-bold text-gray-600">
               nam<span class="rounded-full text-blue-700 text-center">an</span>
-            </div></a
-          >
+            </div>
+          </a>
         </h1>
       </div>
       <div class="navbar bg-slate-800 rounded-lg p-5 mt-2">
         <ul>
           <li class="border-b p-2 font-semibold text-gray-400">
-            <a href=""
-              ><span class="text-orange-800">&lt;</span> Snippets<span
-                class="text-orange-800"
-                >/&gt;</span
-              ></a
-            >
+            <a href=""><span class="text-orange-800">&lt;</span> Snippets<span class="text-orange-800">/&gt;</span></a>
           </li>
-
+  
           <li class="mt-7 font-semibold rounded-md bg-gray-400 text-gray-400">
             <strong- class="bg-slate-800 p-3 rounded-md">About me</strong->
-
+  
             <p class="p-5 text-gray-600">
               Hello, I'm Naman Kumar, a passionate web developer with a mission
               to transform ideas into captivating digital experiences. With a
@@ -57,13 +849,13 @@
               Linkedin
             </li>
           </a>
-
+  
           <a href="https://github.com/codespace555" class="hover:text-gray-300">
             <li>
               <i class="fa-brands fa-github" style="color: #9628a4"></i> GitHub
             </li>
           </a>
-
+  
           <a href="https://twitter.com/NamanKu79266241" class="hover:text-gray-300">
             <li>
               <i class="fa-brands fa-twitter" style="color: #275fbe"></i>
@@ -72,918 +864,14 @@
           </a>
         </ul>
         <div class="navbar bg-slate-800 rounded-lg p-5 mt-2">
-          Copyright © 2023
+          Copyright © 2023 namankr_
         </div>
       </div>
     </nav>
-    <!-- ................................................................................ -->
+  </main>
+ 
+  <!-- ...
+  <script src="https://kit.fontawesome.com/c54e034b6c.js" crossorigin="anonymous"></script>
+</body>
 
-    <main
-      class="w-[80vw] h-auto border rounded-md border-gray-500 overflow-y-scroll no-scrollbar"
-    >
-      <section class="text-right bg-gray-800 text-white p-2 rounded-md">
-        <a href="mailto: namansanjaykumar@gmail.com"
-          ><button class="bg-blue-600 px-2 py-1 rounded-md sticky top-0">
-            <i class="fa-solid fa-user"></i> Contact me
-          </button></a
-        >
-      </section>
-      <header
-        class="rounded-md h-55 flex items-center justify-between py-10 px-2 bg-[url('1080x360.jpeg')] bg-center bg-no-repeat bg-cover from-zinc-400"
-      >
-        <div
-          class="my-img border-4 border-blue-800 rounded-full relative top-28"
-        >
-          <img
-            src="download.gif"
-            alt="my-img "
-            class="rounded-full w-32 border-5 outline-5 h-32 border-5"
-          />
-        </div>
-        <div
-          class="profile border-blue-800 border bg-gray-500 relative top-36 p-3 rounded-md"
-        >
-          <a href=""
-            ><i class="fa-brands fa-linkedin"></i> Connect with Linkedin</a
-          >
-        </div>
-      </header>
-      <div class="mt-[70px] whitespace-normal px-3">
-        <h2 class="text-white font-bold text-2xl">Naman Kumar</h2>
-        <p class="text-slate-300 text-sm"><a href="">@namankr_</a></p>
-        <div>
-          <p class="text-gray-400 pr-20">
-            A driven and passionate web developer student. I have a strong
-            foundation in programming languages , Framework and tools.
-          </p>
-          <span class="text-gray-500">
-            <i class="fa-solid fa-envelope" style="color: #c4c4d7"></i>
-            <a href="namansanjaykumar@gmail.com">namansanjaykumar@gmail.com</a>
-            <br /><i class="fa-solid fa-phone" style="color: #c4c4d7"></i> +91
-            7050553648
-          </span>
-        </div>
-      </div>
-      <!-- work..................................................................... -->
-      <section class="mt-10 text-white">
-        <div class="flex px-3 border-b-2 border-gray-400">
-          <h1 class="font-semibold border-b-8 border-blue-600 rounded-md">
-            Work & Project
-          </h1>
-        </div>
-        <!-- ................................................................................ -->
-        <!-- frontend -->
-        <div class="">
-          <section class="text-gray-400 body-font">
-            <div class="container px-5 py-12 mx-auto">
-              <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="text-2xl font-medium title-font mb-4 text-white">
-                  #Front End project
-                </h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                  Creating stunning websites using HTML, CSS, and JavaScript
-                  with the power of React. Embracing simplicity and efficiency
-                  with Tailwind CSS for seamless web design. Join us on our
-                  journey of building user-friendly interfaces that captivate
-                  and inspire.
-                </p>
-              </div>
-              <div class="flex flex-wrap -m-4">
-                <!-- ................................................................................ -->
-
-                <div class="p-4 lg:w-1/2 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center bg-gray-500 p-5 rounded-lg">
-                    <video
-                      src="video/pokemon.mp4"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4"
-                      autoplay
-                      loop
-                      muted
-                     
-                    ></video>
-                    <div class="w-full">
-                      <h2 class="title-font font-bold text-lg text-gray-900">
-                        PokeBalls React APP
-                      </h2>
-                      <h3 class="text-gray-900 mb-3">Tools & languages:- Raectjs PokeAPI TailwindCss JavaScript JSX</h3>
-
-                      <p class="mb-4">
-                        🌐 PokeBalls is a React web application that allows users to explore and learn about various Pokémon using data fetched from the PokeAPI. This app serves as an interactive Pokédex, enabling users to search for Pokémon, and view details about them.
-                      </p>
-                      <span class="inline-flex border rounded-md px-2">
-                        <a href="https://pokeballs.netlify.app/" class="text-gray-400" target="_blank">Demo </a>
-                      </span>
-                      <span class="inline-flex border px-2 rounded-md">
-                        <a href="https://pokeballs.netlify.app/" class="text-gray-400" target="_blank">GitHub</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- ................................................................................ -->
-
-                <div class="p-4 lg:w-1/2 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center bg-gray-500 p-5 rounded-lg">
-                    <video
-                      src="video/TextUtils_Home - Google Chrome 2023-10-29 21-04-05.mp4"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4"
-                      autoplay
-                      loop
-                      muted
-                     
-                    ></video>
-                    <div class="w-full">
-                      <h2 class="title-font font-bold text-lg text-gray-900">
-                        TextUtils React APP
-                      </h2>
-                      <h3 class="text-gray-900 mb-3">Tools & languages:- Raectjs  TailwindCss JavaScript JSX</h3>
-
-                      <p class="mb-4">
-                        🌐 The TextUtils React App is a user-friendly web application designed to simplify text manipulation and analysis. This app provides a suite of tools to enhance your text processing experience.
-                      </p>
-                      
-                      <span class="inline-flex border px-2 rounded-md">
-                        <a href="https://github.com/codespace555/TextUtils_React_app" class="text-gray-400" target="_blank">GitHub</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- ................................................................................ -->
-
-                <div class="p-4 lg:w-1/2 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center bg-gray-500 p-5 rounded-lg">
-                    <video
-                      src="video/Sports _ NewsFunda - Google Chrome 2023-08-30 16-52-32.mp4"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4"
-                      autoplay
-                      loop
-                      muted
-                     
-                    ></video>
-                    <div class="w-full">
-                      <h2 class="title-font font-bold text-lg text-gray-900">
-                        NewsApp_By_React
-
-                      </h2>
-                      <h3 class="text-gray-900 mb-3">Tools & languages:- Raectjs News API TailwindCss JavaScript JSX</h3>
-
-                      <p class="mb-4">
-                        🌐 The News Vite + React App is a web application built with Vite that allows users to browse and read news articles from various sources and categories. It utilizes the News API to fetch the latest news data and presents it in an easy-to-use and responsive interface. Users can choose from different news categories to stay informed about the topics they are interested in.
-                      
-                     <br> <span class="inline-flex border px-2 m-1 rounded-md">
-                        <a href="https://github.com/codespace555/NewsApp_By_React" class="text-gray-400" target="_blank">GitHub</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <!-- ................................................................................ -->
-
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/203x203"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Henry Letham
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- ................................................................................ -->
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- ................................................................................ -->
-
-        <!-- backend -->
-        <div class="">
-          <section class="text-gray-400 body-font">
-            <div class="container px-5 py-12 mx-auto">
-              <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="text-2xl font-medium title-font mb-4 text-white">
-                  #Back End project
-                </h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                  Harnessing the power of Node.js and Express, we're
-                  constructing dynamic backends seamlessly integrated with
-                  MongoDB. Join us on our journey of building scalable and
-                  efficient solutions that streamline data management and drive
-                  digital transformation.
-                </p>
-              </div>
-              <div class="flex flex-wrap -m-4">
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/200x200"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Alper Kamu
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/201x201"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Holden Caulfield
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/202x202"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Atticus Finch
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/203x203"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Henry Letham
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- ................................................................................ -->
-
-        <!-- full-stack -->
-        <div class="">
-          <section class="text-gray-400 body-font">
-            <div class="container px-5 py-12 mx-auto">
-              <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="text-2xl font-medium title-font mb-4 text-white">
-                  #Full-stack project
-                </h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-                  Embarking on a full-stack journey, we're fusing the power of
-                  front-end creativity with the robustness of back-end
-                  technologies. With expertise in HTML, CSS, JavaScript, React,
-                  Node.js, Express, and MongoDB, we're crafting comprehensive
-                  solutions that deliver exceptional user experiences and
-                  streamlined data management. Join us in exploring the
-                  possibilities of a seamlessly integrated digital ecosystem.
-                </p>
-              </div>
-              <div class="flex flex-wrap -m-4">
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/200x200"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Alper Kamu
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/201x201"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Holden Caulfield
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/202x202"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Atticus Finch
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/4 md:w-1/2">
-                  <div class="h-full flex flex-col items-center text-center">
-                    <img
-                      alt="team"
-                      class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src="https://dummyimage.com/203x203"
-                    />
-                    <div class="w-full">
-                      <h2 class="title-font font-medium text-lg text-gray-900">
-                        Henry Letham
-                      </h2>
-                      <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                      <p class="mb-4">
-                        DIY tote bag drinking vinegar cronut adaptogen squid
-                        fanny pack vaporware.
-                      </p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                            ></path>
-                          </svg>
-                        </a>
-                        <a class="ml-2 text-gray-500">
-                          <svg
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            class="w-5 h-5"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"
-                            ></path>
-                          </svg>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-    </main>
-    <!-- ................................................................................ -->
-
-    <section
-      class="text-center h-auto py-2 px-5 w-80 bg-slate-800 overflow-y-scroll no-scrollbar"
-    >
-      <h1 class="border-b-2 border-gray-500 py-1 text-gray-200 font-semibold">
-        Skill
-      </h1>
-      <ul class="flex justify-evenly flex-wrap gap-5 w-3/2 p-5">
-        <li class="bg-gray-400 text-black px-2 rounded-md">HTML</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">CSS</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">JavaScript</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">ReactJS</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">Node.js</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">Express.js</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">Tailwind CSS</li>
-        <li class="bg-gray-400 text-black px-2 rounded-md">Bootstrap</li>
-      </ul>
-      <h1 class="border-b-2 border-gray-500 py-1 text-gray-200 font-semibold">
-        More Other Project
-      </h1>
-      <ul class="mt-5 flex flex-col justify-evenly gap-5">
-        <li class="bg-gray-400 p-3 rounded-md">
-          <a href="">
-            <div class="h-full flex flex-col items-center text-center">
-              <video src="video/Document - Google Chrome 2023-10-30 13-12-49.mp4" class="flex-shrink-0 rounded-lg w-full h-56 object-fill object-center mb-4" loop autoplay muted ></video>
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-600">
-                  Sample Website
-                </h2>
-                <h3 class="text-gray-500 mb-3">Tools & languages:HTML Tailwind CSS</h3>
-                <p class="mb-4">
-                 A web design sample website using HTMl and Tailwind
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500">Git Hub</a>
-                </span>
-              </div>
-              
-            </div>
-          </a>
-        </li>
-        <li class="bg-gray-400 p-3 rounded-md">
-          <a href="">
-            <div class="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src="https://dummyimage.com/200x200"
-              />
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-600">
-                  Alper Kamu
-                </h2>
-                <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                <p class="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500"> </a>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="bg-gray-400 p-3 rounded-md">
-          <a href="">
-            <div class="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src="https://dummyimage.com/200x200"
-              />
-              <div class="w-full">
-                <h2 class="title-font font-medium text-lg text-gray-600">
-                  Alper Kamu
-                </h2>
-                <h3 class="text-gray-500 mb-3">UI Developer</h3>
-                <p class="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span class="inline-flex">
-                  <a class="text-gray-500"> </a>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <!-- ................................................................................ -->
-
-    <script
-      src="https://kit.fontawesome.com/c54e034b6c.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
